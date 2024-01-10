@@ -1,4 +1,4 @@
-name: V2 - Publish Image
+name: Publish Image
 
 run-name:  "#${{ github.run_number }}. Publish Image on ${{ github.ref_type }} '${{ github.ref_name }}'. Triggered by: ${{ github.triggering_actor }}"
 
