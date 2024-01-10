@@ -16,9 +16,10 @@ on:
   #push: 
     #branches: [main, feat/**, feature/**, release/**]
     #paths-ignore: ['*.md']
+  
   # Auto trigger when a release is created
-  #release:
-    #types: [published]
+  release:
+    types: [published]
 
 jobs:
 
