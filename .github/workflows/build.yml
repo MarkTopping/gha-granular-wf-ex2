@@ -1,4 +1,4 @@
-name: V2 - Build Test Scan
+name: Build Test Scan
 
 run-name:  "#${{ github.run_number }}. Build, Test, Scan on ${{ github.ref_type }} '${{ github.ref_name }}'. Triggered by: ${{ github.triggering_actor }}"
 
