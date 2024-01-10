@@ -1,4 +1,4 @@
-name: V2 - Deploy PRD DR
+name: Deploy PRD DR
 
 run-name: "#${{ github.run_number }}. Deploy to DR Region on ${{ github.ref_type }} '${{ github.ref_name }}'. Triggered by: ${{ github.triggering_actor }}"
 
